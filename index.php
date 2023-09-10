@@ -5,7 +5,7 @@
  * Programming Lanuage used: PHP
  * Student Name: Rilwanu Isyaku
  * GitHub Profile: https://github.com/ridwanishaq
- * 
+ * Date: 10-September-2023
  * 
  */
 
@@ -46,7 +46,7 @@ $responseData = [
     'current_day' => date('l'), // Current day of the week.
     'utc_time' => getCurrentUtcTime(),
     'track' => $track,
-    'github_file_url' => 'https://github.com/ridwanishaq/repo/blob/main/file_name.ext',
+    'github_file_url' => 'https://github.com/ridwanishaq/backend-stage-one-task/blob/master/index.php',
     'github_repo_url' => 'https://github.com/ridwanishaq/backend-stage-one-task',
     'status_code' => 200,
 ];
