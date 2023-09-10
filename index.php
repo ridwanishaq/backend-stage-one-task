@@ -6,6 +6,8 @@
  * Student Name: Rilwanu Isyaku
  * GitHub Profile: https://github.com/ridwanishaq
  * Date: 10-September-2023
+ * Endpoint Example: ?slack_name=HNGx Internship&track=backend
+ * 
  * 
  */
 
@@ -34,7 +36,7 @@ $slackName = isset($_GET['slack_name']) ? $_GET['slack_name'] : '';
 $track = isset($_GET['track']) ? $_GET['track'] : '';
 
 // Validate the track parameter.
-$validTracks = ['backend']; // Add other valid tracks if needed.
+$validTracks = ['backend']; // Can add other valid tracks if needed.
 if (!in_array($track, $validTracks)) {
     http_response_code(400); // Bad Request
     exit('Invalid track parameter.');
